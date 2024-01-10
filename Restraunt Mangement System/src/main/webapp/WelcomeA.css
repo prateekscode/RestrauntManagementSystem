@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.admin-panel {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+.btn1, .btn2, .btn3 {
+  margin-top: 20px;
+}
+
+.btn4{
+	margin-top: 20px;
+}
+
+.btn4 a{
+	background-color: rgb(250, 120, 69);
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+a {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+a:hover {
+  background-color: #45a049;
+}
+
+/* Optional: Style for better visual appeal */
+select:hover,
+select:focus {
+  border-color: #007bff; /* Change to your desired highlight color */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Change to your desired shadow color */
+}
+
+
