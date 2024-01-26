@@ -61,14 +61,14 @@ button:hover {
 .bckhome p {
 	cursor: pointer;
 	margin-top: 20px;
-	text-align: center;
+	text-decoration:none;
 	width: 160px;
 	font-weight: bold;
 	color: rgb(253, 77, 8);
 	line-height: 50px;
 	border: 1px solid rgb(253, 77, 8);
 	background-color: white;
-	border-radius: 5px;
+	border-radius: 3px;
 	box-shadow: 0 2px 15px rgb(250, 120, 69);
 	transition: all 0.2s;
 }
